@@ -48,6 +48,14 @@ body {
     width: 45%;
 }
 
+.lastpage2Img {
+    width: 100%;
+    max-width: 420px;
+    height: auto;
+    display: block;
+    object-fit: contain;
+}
+
 .leftSide h2 {
     font-size: 40px;
     font-weight: 700;
@@ -1203,12 +1211,16 @@ body {
     line-height: 1.6;
 }
 
+.heroWrapper {
+    background: linear-gradient(135deg, #dff6f2 0%, #eafaf7 40%, #f8fffe 100%);
+}
+
 .navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 22px 80px;
-    background-color: #ffffff;
+    background: transparent;
 }
 
 .navLogo {
@@ -1279,7 +1291,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 60px 80px 80px;
-    background: linear-gradient(135deg, #dff6f2 0%, #eafaf7 40%, #f8fffe 100%);
+    background: none;
     min-height: 90vh;
     overflow: hidden;
 }
@@ -1587,5 +1599,5 @@ body {
     font-size: 18px;
     color: white;
     z-index: 10;
-    box-shadow: 0 4px 16px rgba(251,146,60,0.3);
+    box-shadow: 0 4px 16px rgba(251, 146, 60, 0.3);
 }
