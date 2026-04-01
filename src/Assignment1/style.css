@@ -10,9 +10,6 @@ body {
     color: #1a1a2e;
 }
 
-
-/* PAGE 1 — HERO */
-
 .heroWrapper {
     background-color: #ffffff;
     background-image: radial-gradient(
@@ -449,8 +446,7 @@ body {
     color: #aab0c0;
 }
 
-
-/* PAGE 2 — SUPPORT */
+/* PAGE 2 */
 
 .supportSection {
     display: flex;
@@ -562,7 +558,7 @@ body {
 }
 
 
-/* PAGE 3 — FEATURES */
+/* PAGE 3  */
 
 .featuresSection {
     background-color: #ffffff;
@@ -920,7 +916,7 @@ body {
 }
 
 
-/* PAGE 4 — BENEFITS */
+/* PAGE 4 */
 
 .benefitsSection {
     display: flex;
@@ -1091,7 +1087,7 @@ body {
 }
 
 
-/* PAGE 5 — PRICING */
+/* PAGE 5 */
 
 .pricingSection {
     background: linear-gradient(180deg, #f0faf8 0%, #ffffff 100%);
@@ -1313,7 +1309,7 @@ body {
 }
 
 
-/* PAGE 6 — SOCIAL */
+/* PAGE 6 */
 
 .socialSection {
     display: flex;
